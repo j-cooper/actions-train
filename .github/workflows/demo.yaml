@@ -1,0 +1,8 @@
+name: Demo workflow
+on: workflow-dispatch
+jobs:
+  print_description:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print to console
+        run: echo Print GitHub comment to ubuntu console
